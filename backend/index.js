@@ -21,7 +21,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.use(cors({
-	origin: 'https://cloud-porject-tpgr.vercel.app',
+	origin: "https://cloud-porject-ykgj.vercel.app",
 	credentials: true
   }));
 
