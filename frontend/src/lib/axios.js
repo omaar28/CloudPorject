@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-	baseURL: "https://cloud-porject.vercel.app/api",
+	baseURL: "https://cloud-porject.vercel.app",
 	withCredentials: true, // send cookies to the server
 });
 
