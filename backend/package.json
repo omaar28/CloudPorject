@@ -1,12 +1,11 @@
 {
-  "name": "e-commerce-store",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
-    "start": "node backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
   },
   "keywords": [],
   "author": "",
